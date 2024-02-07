@@ -30,7 +30,7 @@ def input_image_setup(uploaded_file):
     
 
 st.set_page_config(page_title = "Health App")
-st.header('Check Calories of your food 😋')
+st.header('Check Calories of your food ')
 uploaded_file = st.file_uploader("Choose an image ",type=['jpg','jpeg','png'])
 
 image = ""
